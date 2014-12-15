@@ -11,4 +11,4 @@ elefee, acts as the network server. Coding by Java and compiling in eclipse, it 
 
 myele, acts on the Internet, for Searching how much they will pay, and show user records. It consists of Action(Java) and Html/Css/JS/Bootstrap, of course.
 
-试想一下，小区用户凭刷卡走入电梯，服务器自动记录每个用户使用电梯记录并以此分析每年/月的使用费用，实现公平公摊，网页查询费用并可定时推送邮箱，是多么美妙的事情啊（yy中）。
+试想一下，小区用户凭刷卡走入电梯，服务器自动记录每个用户使用电梯记录并以此分析每年/月的使用费用，实现公平公摊，网页查询费用并可定时推送邮箱，是多么美妙的事情啊（yy中==）。
