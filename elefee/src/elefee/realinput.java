@@ -32,7 +32,7 @@ public class realinput{
 	public static void tmpsend(int elenum,String userid,String usetime) throws SQLException,ClassNotFoundException{
 		String url="jdbc:mysql://localhost:3306/eledb";
 		String account="root";
-		String password="19940427open";
+		String password="agao0930yjc";
 		Connection link;
 		Class.forName("com.mysql.jdbc.Driver");
 		link=DriverManager.getConnection(url,account,password);
@@ -50,11 +50,11 @@ public class realinput{
 		String ret="";
 		String url="jdbc:mysql://localhost:3306/eledb";
 		String account="root";
-		String password="19940427open";
+		String password="agao0930yjc";
 		Connection link;
 		Class.forName("com.mysql.jdbc.Driver");
 		link=DriverManager.getConnection(url,account,password);
-		String sql="select * from eleuser where cardnum=?";
+		String sql="select * from eleuser where cardid=?";
 		PreparedStatement pst=link.prepareStatement(sql);
 		pst.setString(1,str);
 		ResultSet rst=pst.executeQuery();
@@ -67,7 +67,7 @@ public class realinput{
 		int ret=0;
 		String url="jdbc:mysql://localhost:3306/eledb";
 		String account="root";
-		String password="19940427open";
+		String password="agao0930yjc";
 		Connection link;
 		Class.forName("com.mysql.jdbc.Driver");
 		link=DriverManager.getConnection(url,account,password);

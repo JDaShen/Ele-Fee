@@ -42,7 +42,7 @@ public class normalinput {
 		int uselevel=Math.abs(startlevel-endlevel);
 		String url="jdbc:mysql://localhost:3306/eledb";
 		String account="root";
-		String password="19940427open";
+		String password="agao0930yjc";
 		Connection link;
 		Class.forName("com.mysql.jdbc.Driver");
 		link=DriverManager.getConnection(url,account,password);

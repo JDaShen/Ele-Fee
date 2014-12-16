@@ -14,7 +14,7 @@ public class analysis{
 		usernum=getuserinfo();
 		String url="jdbc:mysql://localhost:3306/eledb";
 		String account="root";
-		String password="19940427open";
+		String password="agao0930yjc";
 		ResultSet result;
 		Connection link;
 		Class.forName("com.mysql.jdbc.Driver");
@@ -49,7 +49,7 @@ public class analysis{
 		int ret=0;
 		String url="jdbc:mysql://localhost:3306/eledb";
 		String account="root";
-		String password="19940427open";
+		String password="agao0930yjc";
 		Connection link;
 		Class.forName("com.mysql.jdbc.Driver");
 		link=DriverManager.getConnection(url,account,password);
